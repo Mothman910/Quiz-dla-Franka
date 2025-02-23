@@ -1,0 +1,375 @@
+[
+  {
+    "category": "Minecraft",
+    "question": "Jakie jest podstawowe narzędzie do ścinania drzew?",
+    "options": ["Kilof", "Łopata", "Topór", "Młotek"],
+    "answer": "Topór"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie stworzenie pojawia się w nocy i atakuje gracza?",
+    "options": ["Zombie", "Krowa", "Kura", "Wilk"],
+    "answer": "Zombie"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie narzędzie jest używane do kopania w Minecraft?",
+    "options": ["Łopata", "Kilof", "Młotek", "Piła"],
+    "answer": "Kilof"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie zwierzę można oswoić w Minecraft?",
+    "options": ["Krowa", "Wilk", "Świnia", "Kura"],
+    "answer": "Wilk"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie jest najrzadsze minerał w Minecraft?",
+    "options": ["Złoto", "Diament", "Szmaragd", "Żelazo"],
+    "answer": "Szmaragd"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie jest podstawowe narzędzie do ścinania drzew?",
+    "options": ["Kilof", "Łopata", "Topór", "Młotek"],
+    "answer": "Topór"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie stworzenie pojawia się w nocy i atakuje gracza?",
+    "options": ["Zombie", "Krowa", "Kura", "Wilk"],
+    "answer": "Zombie"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie jest podstawowe źródło pożywienia w Minecraft?",
+    "options": ["Chleb", "Jabłko", "Mięso", "Ryba"],
+    "answer": "Chleb"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie jest najgłębsze miejsce w Minecraft?",
+    "options": ["Jaskinia", "Kopalnia", "Nether", "End"],
+    "answer": "End"
+  },
+  {
+    "category": "Minecraft",
+    "question": "Jakie jest podstawowe narzędzie do kopania ziemi?",
+    "options": ["Kilof", "Łopata", "Topór", "Młotek"],
+    "answer": "Łopata"
+  },
+
+  {
+    "category": "Lego",
+    "question": "Która postać była w bajce zwierzęciem?",
+    "options": ["Król", "Smok", "Kogut", "Księżniczka"],
+    "answer": "Kogut"
+  },
+  {
+    "category": "Lego",
+    "question": "Jaki jest ulubiony zwierzak księżniczki?",
+    "options": ["Pies", "Kot", "Królika", "Koń"],
+    "answer": "Kot"
+  },
+  {
+    "category": "Lego",
+    "question": "Która postać była w bajce zwierzęciem?",
+    "options": ["Król", "Smok", "Kogut", "Księżniczka"],
+    "answer": "Kogut"
+  },
+  {
+    "category": "Lego",
+    "question": "Jaki jest ulubiony zwierzak księżniczki?",
+    "options": ["Pies", "Kot", "Królika", "Koń"],
+    "answer": "Kot"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najpopularniejsze zestawienie klocków Lego?",
+    "options": ["Zamek", "Statek", "Miasto", "Kosmos"],
+    "answer": "Miasto"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najczęściej używane narzędzie w zestawach Lego?",
+    "options": ["Młotek", "Śrubokręt", "Klucz", "Piła"],
+    "answer": "Śrubokręt"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najpopularniejsze zwierzę w zestawach Lego?",
+    "options": ["Pies", "Kot", "Koń", "Smok"],
+    "answer": "Koń"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najczęściej używane kolory w zestawach Lego?",
+    "options": ["Czerwony i niebieski", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "answer": "Czerwony i niebieski"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najpopularniejsze pojazdy w zestawach Lego?",
+    "options": ["Samochód", "Motocykl", "Statek", "Samolot"],
+    "answer": "Samochód"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najczęściej używane budynki w zestawach Lego?",
+    "options": ["Dom", "Zamek", "Szkoła", "Szpital"],
+    "answer": "Zamek"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najpopularniejsze postacie w zestawach Lego?",
+    "options": ["Rycerz", "Piraci", "Kosmonauta", "Policjant"],
+    "answer": "Rycerz"
+  },
+  {
+    "category": "Lego",
+    "question": "Jakie jest najczęściej używane akcesoria w zestawach Lego?",
+    "options": ["Miecz", "Tarcza", "Hełm", "Zbroja"],
+    "answer": "Miecz"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione jedzenie Sonica?",
+    "options": ["Pizza", "Hamburger", "Hot dog", "Chili dog"],
+    "answer": "Chili dog"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest imię głównego przeciwnika Sonica?",
+    "options": ["Dr. Eggman", "Dr. Robotnik", "Dr. Wily", "Dr. Cortex"],
+    "answer": "Dr. Robotnik"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione hobby Sonica?",
+    "options": ["Bieganie", "Pływanie", "Skakanie", "Latanie"],
+    "answer": "Bieganie"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest imię najlepszego przyjaciela Sonica?",
+    "options": ["Tails", "Knuckles", "Amy", "Shadow"],
+    "answer": "Tails"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione miejsce Sonica?",
+    "options": ["Green Hill Zone", "Marble Zone", "Spring Yard Zone", "Labyrinth Zone"],
+    "answer": "Green Hill Zone"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione zwierzę Sonica?",
+    "options": ["Jeż", "Lis", "Nietoperz", "Królik"],
+    "answer": "Jeż"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione narzędzie Sonica?",
+    "options": ["Pierścień", "Smaragd", "Młotek", "Tarcza"],
+    "answer": "Pierścień"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione pojazdy Sonica?",
+    "options": ["Samochód", "Motocykl", "Statek", "Samolot"],
+    "answer": "Samolot"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione kolory Sonica?",
+    "options": ["Niebieski i czerwony", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "answer": "Niebieski i czerwony"
+  },
+  {
+    "category": "Sonic",
+    "question": "Jakie jest ulubione akcesoria Sonica?",
+    "options": ["Buty", "Rękawice", "Hełm", "Zbroja"],
+    "answer": "Buty"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest imię głównego bohatera w Pokemon?",
+    "options": ["Ash", "Brock", "Misty", "Gary"],
+    "answer": "Ash"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione Pokemon Asha?",
+    "options": ["Pikachu", "Charizard", "Bulbasaur", "Squirtle"],
+    "answer": "Pikachu"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione hobby Asha?",
+    "options": ["Łapanie Pokemonów", "Trenowanie Pokemonów", "Walczanie z Pokemonami", "Podróżowanie"],
+    "answer": "Łapanie Pokemonów"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione miejsce Asha?",
+    "options": ["Pallet Town", "Cerulean City", "Pewter City", "Viridian City"],
+    "answer": "Pallet Town"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione zwierzę Asha?",
+    "options": ["Pikachu", "Charizard", "Bulbasaur", "Squirtle"],
+    "answer": "Pikachu"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione narzędzie Asha?",
+    "options": ["Pokeball", "Potion", "Revive", "Antidote"],
+    "answer": "Pokeball"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione pojazdy Asha?",
+    "options": ["Rower", "Samochód", "Statek", "Samolot"],
+    "answer": "Rower"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione kolory Asha?",
+    "options": ["Czerwony i niebieski", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "answer": "Czerwony i niebieski"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione akcesoria Asha?",
+    "options": ["Czapka", "Rękawice", "Buty", "Plecak"],
+    "answer": "Czapka"
+  },
+  {
+    "category": "Pokemon",
+    "question": "Jakie jest ulubione jedzenie Asha?",
+    "options": ["Hamburger", "Pizza", "Hot dog", "Ramen"],
+    "answer": "Ramen"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest imię głównego bohatera w Jurassic Park?",
+    "options": ["Alan", "Ellie", "Ian", "John"],
+    "answer": "Alan"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione dinozaur Alana?",
+    "options": ["T-Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
+    "answer": "Velociraptor"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione hobby Alana?",
+    "options": ["Badanie dinozaurów", "Łapanie dinozaurów", "Trenowanie dinozaurów", "Podróżowanie"],
+    "answer": "Badanie dinozaurów"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione miejsce Alana?",
+    "options": ["Isla Nublar", "Isla Sorna", "Pallet Town", "Cerulean City"],
+    "answer": "Isla Nublar"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione zwierzę Alana?",
+    "options": ["T-Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
+    "answer": "Velociraptor"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione narzędzie Alana?",
+    "options": ["Młotek", "Kilof", "Łopata", "Topór"],
+    "answer": "Młotek"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione pojazdy Alana?",
+    "options": ["Samochód", "Motocykl", "Statek", "Samolot"],
+    "answer": "Samochód"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione kolory Alana?",
+    "options": ["Czerwony i niebieski", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "answer": "Czerwony i niebieski"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione akcesoria Alana?",
+    "options": ["Czapka", "Rękawice", "Buty", "Plecak"],
+    "answer": "Czapka"
+  },
+  {
+    "category": "Jurassic Park",
+    "question": "Jakie jest ulubione jedzenie Alana?",
+    "options": ["Hamburger", "Pizza", "Hot dog", "Ramen"],
+    "answer": "Hamburger"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest imię głównego bohatera w Star Wars?",
+    "options": ["Luke", "Han", "Leia", "Darth Vader"],
+    "answer": "Luke"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione hobby Luke'a?",
+    "options": ["Trenowanie Jedi", "Łapanie Sithów", "Podróżowanie", "Walczanie z Imperium"],
+    "answer": "Trenowanie Jedi"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione miejsce Luke'a?",
+    "options": ["Tatooine", "Hoth", "Endor", "Dagobah"],
+    "answer": "Tatooine"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione zwierzę Luke'a?",
+    "options": ["Bantha", "Tauntaun", "Wampa", "Rancor"],
+    "answer": "Tauntaun"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione narzędzie Luke'a?",
+    "options": ["Miecz świetlny", "Blaster", "Holocron", "Droid"],
+    "answer": "Miecz świetlny"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione pojazdy Luke'a?",
+    "options": ["X-Wing", "TIE Fighter", "Millennium Falcon", "Speeder"],
+    "answer": "X-Wing"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione kolory Luke'a?",
+    "options": ["Niebieski i zielony", "Czerwony i czarny", "Biały i złoty", "Fioletowy i srebrny"],
+    "answer": "Niebieski i zielony"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione akcesoria Luke'a?",
+    "options": ["Rękawice", "Hełm", "Buty", "Plecak"],
+    "answer": "Rękawice"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione jedzenie Luke'a?",
+    "options": ["Hamburger", "Pizza", "Hot dog", "Ramen"],
+    "answer": "Ramen"
+  },
+  {
+    "category": "Star Wars",
+    "question": "Jakie jest ulubione hobby Luke'a?",
+    "options": ["Trenowanie Jedi", "Łapanie Sithów", "Podróżowanie", "Walczanie z Imperium"],
+    "answer": "Trenowanie Jedi"
+  }
+]
