@@ -69,7 +69,7 @@
   {
     "category": "Lego",
     "question": "Jaki jest ulubiony zwierzak księżniczki?",
-    "options": ["Pies", "Kot", "Królika", "Koń"],
+    "options": ["Pies", "Kot", "Królik", "Koń"],
     "answer": "Kot"
   },
   {
@@ -81,7 +81,7 @@
   {
     "category": "Lego",
     "question": "Jaki jest ulubiony zwierzak księżniczki?",
-    "options": ["Pies", "Kot", "Królika", "Koń"],
+    "options": ["Pies", "Kot", "Królik", "Koń"],
     "answer": "Kot"
   },
   {
@@ -128,7 +128,7 @@
   },
   {
     "category": "Lego",
-    "question": "Jakie jest najczęściej używane akcesoria w zestawach Lego?",
+    "question": "Jakie są najczęściej używane akcesoria w zestawach Lego?",
     "options": ["Miecz", "Tarcza", "Hełm", "Zbroja"],
     "answer": "Miecz"
   },
@@ -171,7 +171,7 @@
   {
     "category": "Sonic",
     "question": "Jakie jest ulubione narzędzie Sonica?",
-    "options": ["Pierścień", "Smaragd", "Młotek", "Tarcza"],
+    "options": ["Pierścień", "Szmaragd", "Młotek", "Tarcza"],
     "answer": "Pierścień"
   },
   {
@@ -188,7 +188,7 @@
   },
   {
     "category": "Sonic",
-    "question": "Jakie jest ulubione akcesoria Sonica?",
+    "question": "Jakie są ulubione akcesoria Sonica?",
     "options": ["Buty", "Rękawice", "Hełm", "Zbroja"],
     "answer": "Buty"
   },

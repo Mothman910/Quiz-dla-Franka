@@ -5,7 +5,16 @@ function QuizCard({ title, image, onClick }) {
   return (
     <Card onClick={onClick} sx={{ minWidth: 200, maxWidth: 400, bgcolor: 'background.paper' }}>
       <CardActionArea>
-        <CardMedia component="img" height="140" image={image} alt={title} />
+        <CardMedia
+          component="img"
+          height="140"
+          image={image}
+          alt={title}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = image.replace('.jpg', '.png').replace('.png', '.webp');
+          }}
+        />
         <CardContent>
           <Typography variant="h6" component="div">
             {title}

@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { Box, Typography, Dialog, DialogContent, LinearProgress, Button, Grid } from '@mui/material';
 import questionsData from '../data/questions.json';
@@ -47,12 +47,14 @@ const QuizPage = () => {
 
   return (
     <Box>
-      <Typography variant="h4">Quiz: {capitalizedQuizTopic}</Typography>
+      <Typography paddingTop="20px" align="center" variant="h4">
+        Quiz: {capitalizedQuizTopic}
+      </Typography>
       <Dialog open={open} onClose={handleClose} fullWidth maxWidth="sm">
         <DialogContent>
           {!quizFinished || reviewMode ? (
             <>
-              <QuizQuestion question={questions[currentQuestionIndex]} onAnswer={(isCorrect) => handleAnswer(isCorrect, questions[currentQuestionIndex].options)} selectedOption={answers[currentQuestionIndex]?.selectedOption} />
+              <QuizQuestion question={questions[currentQuestionIndex]} onAnswer={(isCorrect, selectedOption) => handleAnswer(isCorrect, selectedOption)} selectedOption={answers[currentQuestionIndex]?.selectedOption} reviewMode={reviewMode} />
               <LinearProgress variant="determinate" value={((currentQuestionIndex + 1) / questions.length) * 100} />
             </>
           ) : (
@@ -66,22 +68,18 @@ const QuizPage = () => {
         <Grid container spacing={2} justifyContent="center" sx={{ mt: 3 }}>
           {answers.map((answer, index) => (
             <Grid item key={index}>
-              <Button
-                variant="contained"
-                sx={{
-                  backgroundColor: answer.isCorrect ? 'green' : 'red',
-                  '&:hover': {
-                    backgroundColor: answer.isCorrect ? 'darkgreen' : 'darkred',
-                  },
-                }}
-                onClick={() => handleReopen(index)}
-              >
+              <Button variant="contained" color={answer.isCorrect ? 'success' : 'error'} onClick={() => handleReopen(index)}>
                 Pytanie {index + 1}
               </Button>
             </Grid>
           ))}
         </Grid>
       )}
+      <Box textAlign="center" sx={{ mt: 3 }}>
+        <Button variant="contained" color="primary" component={Link} to="/">
+          Powrót do strony głównej
+        </Button>
+      </Box>
     </Box>
   );
 };
