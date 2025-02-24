@@ -1,5 +1,6 @@
 import { Box, Card, CardMedia, CardContent, Typography, Grid, CardActionArea } from '@mui/material';
 import PropTypes from 'prop-types';
+import Tilt from 'react-parallax-tilt';
 
 const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
   const handleCardClick = (option) => {
@@ -15,7 +16,7 @@ const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
         <CardMedia
           component="img"
           height="140"
-          image={`/images/${question.category.toLowerCase()}_0.jpg`}
+          image={`/images/${question.category.toLowerCase().replace(/ /g, '-')}_0.jpg`}
           onError={(e) => {
             e.target.onerror = null;
             e.target.src = `/images/${question.category.toLowerCase()}_0.png`;
@@ -31,31 +32,33 @@ const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
           <Grid container spacing={2}>
             {question.options.map((option, index) => (
               <Grid item xs={12} sm={6} key={index}>
-                <Card
-                  onClick={() => handleCardClick(option)}
-                  sx={{
-                    mb: 2,
-                    backgroundColor: reviewMode && option === selectedOption ? (option === question.answer ? 'green' : 'red') : 'inherit',
-                    border: reviewMode && option === selectedOption ? '2px solid' : 'none',
-                    borderColor: reviewMode && option === selectedOption ? (option === question.answer ? 'green' : 'red') : 'none',
-                  }}
-                >
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image={`/images/${option.toLowerCase()}.jpg`}
-                      alt={option}
-                      onError={(e) => {
-                        e.target.onerror = null;
-                        e.target.src = `/images/${option.toLowerCase()}.png`;
-                      }}
-                    />
-                    <CardContent>
-                      <Typography variant="h6">{option}</Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Card>
+                <Tilt glareEnable={true} glareMaxOpacity={0.3} glareColor="#ffffff" glarePosition="bottom" tiltMaxAngleX={15} tiltMaxAngleY={15} transitionSpeed={300} scale={1.05}>
+                  <Card
+                    onClick={() => handleCardClick(option)}
+                    sx={{
+                      mb: 2,
+                      backgroundColor: reviewMode && option === selectedOption ? (option === question.answer ? 'green' : 'red') : 'inherit',
+                      border: reviewMode && option === selectedOption ? '2px solid' : 'none',
+                      borderColor: reviewMode && option === selectedOption ? (option === question.answer ? 'green' : 'red') : 'none',
+                    }}
+                  >
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="140"
+                        image={`/images/${option.toLowerCase()}.jpg`}
+                        alt={option}
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src = `/images/${option.toLowerCase()}.png`;
+                        }}
+                      />
+                      <CardContent>
+                        <Typography variant="h6">{option}</Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Tilt>
               </Grid>
             ))}
           </Grid>
