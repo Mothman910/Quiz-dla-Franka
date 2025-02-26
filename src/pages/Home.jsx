@@ -3,6 +3,7 @@ import { Dialog, DialogContent, Grid2, Typography, Slide } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import QuizCard from '../components/QuizCard';
 import StorySlides from '../components/StorySlides';
+import Tilt from 'react-parallax-tilt';
 
 const quizzes = [
   {
@@ -96,7 +97,9 @@ function Home() {
       <Grid2 container spacing={3} justifyContent="center">
         {quizzes.map((quiz) => (
           <Grid2 item key={quiz.id}>
-            <QuizCard title={quiz.title} image={quiz.image} onClick={() => handleOpen(quiz)} />
+            <Tilt glareEnable={true} glareMaxOpacity={0.3} glareColor="#ffffff" glarePosition="bottom" tiltMaxAngleX={15} tiltMaxAngleY={15} transitionSpeed={300} scale={1.05}>
+              <QuizCard title={quiz.title} image={quiz.image} onClick={() => handleOpen(quiz)} />
+            </Tilt>
           </Grid2>
         ))}
       </Grid2>
