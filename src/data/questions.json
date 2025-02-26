@@ -285,7 +285,7 @@
   },
   {
     "category": "Jurassic Park",
-    "question": "Jakie jest ulubione dinozaur Alana?",
+    "question": "Jaki jest ulubiony dinozaur Alana?",
     "options": ["T-Rex", "Velociraptor", "Triceratops", "Brachiosaurus"],
     "answer": "Velociraptor"
   },
