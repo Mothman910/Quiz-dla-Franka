@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import {
   Box,
   Card,
@@ -9,18 +10,8 @@ import {
 } from '@mui/material';
 import PropTypes from 'prop-types';
 import Tilt from 'react-parallax-tilt';
-import { useEffect, useState } from 'react';
 
 const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
-  const handleCardClick = (option) => {
-    if (!reviewMode) {
-      const isCorrect = option === question.answer;
-      onAnswer(isCorrect, option);
-    }
-  };
-
-  // Mieszanie tablicy opcji za każdym razem, gdy pytanie się zmienia
-
   const [shuffledOptions, setShuffledOptions] = useState([]);
 
   useEffect(() => {
@@ -33,6 +24,13 @@ const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+  };
+
+  const handleCardClick = (option) => {
+    if (!reviewMode) {
+      const isCorrect = option === question.answer;
+      onAnswer(isCorrect, option);
+    }
   };
 
   return (
@@ -65,7 +63,7 @@ const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
         </CardContent>
         <CardContent>
           <Grid container spacing={2}>
-            {shuffledOptions.options.map((option, index) => (
+            {shuffledOptions.map((option, index) => (
               <Grid item xs={12} sm={6} key={index}>
                 <Tilt
                   glareEnable={true}
