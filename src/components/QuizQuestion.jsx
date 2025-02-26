@@ -1,6 +1,15 @@
-import { Box, Card, CardMedia, CardContent, Typography, Grid, CardActionArea } from '@mui/material';
+import {
+  Box,
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  Grid,
+  CardActionArea,
+} from '@mui/material';
 import PropTypes from 'prop-types';
 import Tilt from 'react-parallax-tilt';
+import { useEffect, useState } from 'react';
 
 const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
   const handleCardClick = (option) => {
@@ -10,36 +19,84 @@ const QuizQuestion = ({ question, onAnswer, selectedOption, reviewMode }) => {
     }
   };
 
+  // Mieszanie tablicy opcji za każdym razem, gdy pytanie się zmienia
+
+  const [shuffledOptions, setShuffledOptions] = useState([]);
+
+  useEffect(() => {
+    setShuffledOptions(shuffleArray([...question.options]));
+  }, [question]);
+
+  const shuffleArray = (array) => {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  };
+
   return (
     <Box>
       <Card sx={{ mb: 2, position: 'relative' }}>
         <CardMedia
           component="img"
           height="140"
-          image={`/images/${question.category.toLowerCase().replace(/ /g, '-')}_0.jpg`}
+          image={`/images/${question.category
+            .toLowerCase()
+            .replace(/ /g, '-')}_0.jpg`}
           onError={(e) => {
             e.target.onerror = null;
             e.target.src = `/images/${question.category.toLowerCase()}_0.png`;
           }}
           alt={question.category}
         />
-        <CardContent sx={{ position: 'absolute', top: 0, left: 0, right: 0, backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
+        <CardContent
+          sx={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+          }}
+        >
           <Typography variant="h6" sx={{ color: 'white' }}>
             {question.question}
           </Typography>
         </CardContent>
         <CardContent>
           <Grid container spacing={2}>
-            {question.options.map((option, index) => (
+            {shuffledOptions.options.map((option, index) => (
               <Grid item xs={12} sm={6} key={index}>
-                <Tilt glareEnable={true} glareMaxOpacity={0.3} glareColor="#ffffff" glarePosition="bottom" tiltMaxAngleX={15} tiltMaxAngleY={15} transitionSpeed={300} scale={1.05}>
+                <Tilt
+                  glareEnable={true}
+                  glareMaxOpacity={0.3}
+                  glareColor="#ffffff"
+                  glarePosition="bottom"
+                  tiltMaxAngleX={15}
+                  tiltMaxAngleY={15}
+                  transitionSpeed={300}
+                  scale={1.05}
+                >
                   <Card
                     onClick={() => handleCardClick(option)}
                     sx={{
                       mb: 2,
-                      backgroundColor: reviewMode && option === selectedOption ? (option === question.answer ? 'green' : 'red') : 'inherit',
-                      border: reviewMode && option === selectedOption ? '2px solid' : 'none',
-                      borderColor: reviewMode && option === selectedOption ? (option === question.answer ? 'green' : 'red') : 'none',
+                      backgroundColor:
+                        reviewMode && option === selectedOption
+                          ? option === question.answer
+                            ? 'green'
+                            : 'red'
+                          : 'inherit',
+                      border:
+                        reviewMode && option === selectedOption
+                          ? '2px solid'
+                          : 'none',
+                      borderColor:
+                        reviewMode && option === selectedOption
+                          ? option === question.answer
+                            ? 'green'
+                            : 'red'
+                          : 'none',
                     }}
                   >
                     <CardActionArea>
