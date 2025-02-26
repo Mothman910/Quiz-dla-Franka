@@ -105,7 +105,12 @@
   {
     "category": "Lego",
     "question": "Jakie jest najczęściej używane kolory w zestawach Lego?",
-    "options": ["Czerwony i niebieski", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "options": [
+      "Czerwony i niebieski",
+      "Zielony i żółty",
+      "Czarny i biały",
+      "Różowy i fioletowy"
+    ],
     "answer": "Czerwony i niebieski"
   },
   {
@@ -159,7 +164,12 @@
   {
     "category": "Sonic",
     "question": "Jakie jest ulubione miejsce Sonica?",
-    "options": ["Green Hill Zone", "Marble Zone", "Spring Yard Zone", "Labyrinth Zone"],
+    "options": [
+      "Green Hill Zone",
+      "Marble Zone",
+      "Spring Yard Zone",
+      "Labyrinth Zone"
+    ],
     "answer": "Green Hill Zone"
   },
   {
@@ -183,7 +193,12 @@
   {
     "category": "Sonic",
     "question": "Jakie jest ulubione kolory Sonica?",
-    "options": ["Niebieski i czerwony", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "options": [
+      "Niebieski i czerwony",
+      "Zielony i żółty",
+      "Czarny i biały",
+      "Różowy i fioletowy"
+    ],
     "answer": "Niebieski i czerwony"
   },
   {
@@ -200,14 +215,19 @@
   },
   {
     "category": "Pokemon",
-    "question": "Jakie jest ulubione Pokemon Asha?",
+    "question": "Jaki jest ulubione Pokemon Asha?",
     "options": ["Pikachu", "Charizard", "Bulbasaur", "Squirtle"],
     "answer": "Pikachu"
   },
   {
     "category": "Pokemon",
     "question": "Jakie jest ulubione hobby Asha?",
-    "options": ["Łapanie Pokemonów", "Trenowanie Pokemonów", "Walczanie z Pokemonami", "Podróżowanie"],
+    "options": [
+      "Łapanie Pokemonów",
+      "Trenowanie Pokemonów",
+      "Walczanie z Pokemonami",
+      "Podróżowanie"
+    ],
     "answer": "Łapanie Pokemonów"
   },
   {
@@ -237,12 +257,17 @@
   {
     "category": "Pokemon",
     "question": "Jakie jest ulubione kolory Asha?",
-    "options": ["Czerwony i niebieski", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "options": [
+      "Czerwony i niebieski",
+      "Zielony i żółty",
+      "Czarny i biały",
+      "Różowy i fioletowy"
+    ],
     "answer": "Czerwony i niebieski"
   },
   {
     "category": "Pokemon",
-    "question": "Jakie jest ulubione akcesoria Asha?",
+    "question": "Jakie są ulubione akcesoria Asha?",
     "options": ["Czapka", "Rękawice", "Buty", "Plecak"],
     "answer": "Czapka"
   },
@@ -267,7 +292,12 @@
   {
     "category": "Jurassic Park",
     "question": "Jakie jest ulubione hobby Alana?",
-    "options": ["Badanie dinozaurów", "Łapanie dinozaurów", "Trenowanie dinozaurów", "Podróżowanie"],
+    "options": [
+      "Badanie dinozaurów",
+      "Łapanie dinozaurów",
+      "Trenowanie dinozaurów",
+      "Podróżowanie"
+    ],
     "answer": "Badanie dinozaurów"
   },
   {
@@ -297,7 +327,12 @@
   {
     "category": "Jurassic Park",
     "question": "Jakie jest ulubione kolory Alana?",
-    "options": ["Czerwony i niebieski", "Zielony i żółty", "Czarny i biały", "Różowy i fioletowy"],
+    "options": [
+      "Czerwony i niebieski",
+      "Zielony i żółty",
+      "Czarny i biały",
+      "Różowy i fioletowy"
+    ],
     "answer": "Czerwony i niebieski"
   },
   {
@@ -321,7 +356,12 @@
   {
     "category": "Star Wars",
     "question": "Jakie jest ulubione hobby Luke'a?",
-    "options": ["Trenowanie Jedi", "Łapanie Sithów", "Podróżowanie", "Walczanie z Imperium"],
+    "options": [
+      "Trenowanie Jedi",
+      "Łapanie Sithów",
+      "Podróżowanie",
+      "Walczanie z Imperium"
+    ],
     "answer": "Trenowanie Jedi"
   },
   {
@@ -351,7 +391,12 @@
   {
     "category": "Star Wars",
     "question": "Jakie jest ulubione kolory Luke'a?",
-    "options": ["Niebieski i zielony", "Czerwony i czarny", "Biały i złoty", "Fioletowy i srebrny"],
+    "options": [
+      "Niebieski i zielony",
+      "Czerwony i czarny",
+      "Biały i złoty",
+      "Fioletowy i srebrny"
+    ],
     "answer": "Niebieski i zielony"
   },
   {
@@ -369,7 +414,12 @@
   {
     "category": "Star Wars",
     "question": "Jakie jest ulubione hobby Luke'a?",
-    "options": ["Trenowanie Jedi", "Łapanie Sithów", "Podróżowanie", "Walczanie z Imperium"],
+    "options": [
+      "Trenowanie Jedi",
+      "Łapanie Sithów",
+      "Podróżowanie",
+      "Walczanie z Imperium"
+    ],
     "answer": "Trenowanie Jedi"
   }
 ]
